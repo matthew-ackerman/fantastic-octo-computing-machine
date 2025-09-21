@@ -4,6 +4,6 @@ not_free/*
 assets/*
 focm_engine
 focm_ui
-AGENTS.md
+*.nul
 AGENTS.md
 CHANGES.md
