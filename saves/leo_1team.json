@@ -1,0 +1,45 @@
+[
+  {
+    "object": "ship1",
+    "x": 0,
+    "y": 0,
+    "vx": 0,
+    "vy": 0,
+    "theta": 1.5707963267948966,
+    "team": 0,
+    "ang_vel": 0.0,
+    "dead": false
+  },
+  {
+    "object": "ship1",
+    "x": 600,
+    "y": 0,
+    "vx": 0,
+    "vy": 0,
+    "theta": 1.5707963267948966,
+    "team": 0,
+    "ang_vel": 0.0,
+    "dead": false
+  },
+  {
+    "object": "ship1",
+    "x": 8000,
+    "y": 2000,
+    "vx": 0,
+    "vy": 1000,
+    "theta": 1.5707963267948966,
+    "team": 0,
+    "ang_vel": 0.0,
+    "dead": false
+  },
+  {
+    "object": "earth",
+    "x": -7000000,
+    "y": 0,
+    "vx": 0,
+    "vy": 0,
+    "theta": 0.0,
+    "ang_vel": 1.0,
+    "team": 0
+  }
+]

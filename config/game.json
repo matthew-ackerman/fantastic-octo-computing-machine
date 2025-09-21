@@ -1,0 +1,11 @@
+{
+  "paths": {
+    "config": "config",
+    "assets": "assets",
+    "images": "graphics",
+    "saves": "saves",
+    "boot_sequence": "boot_sequence/boot_sequence.json"
+  },
+  "net_port": 55555,
+  "min_time_step": 0.015625
+}

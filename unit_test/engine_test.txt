@@ -1,0 +1,23 @@
+# Sample test script for main_engine
+# Use: cat engine_test.txt | ./main_engine assets/objects.json saves/save.json
+
+# Dump initial ships
+STATE
+
+# Turn 1: accelerate ship 1, set heading 45 degrees, and fire
+THROTTLE uid=1 value=1
+HEADING uid=1 theta=0.785398
+FIRE uid=1 theta=0.785398
+END_TURN
+
+# Dump ships after turn 1
+STATE
+
+# Turn 2: stop thrust, turn to 90 degrees
+THROTTLE uid=1 value=0
+HEADING uid=1 theta=1.570796
+END_TURN
+
+# Dump all objects (including debris/projectiles)
+STATE ALL
+

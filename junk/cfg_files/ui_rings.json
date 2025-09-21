@@ -1,0 +1,16 @@
+{ 
+    "friendly":{
+        "selected":{"RGBA":[r,g,b,a]},
+        "no_selected":{"RGBA":[r,g,b,a]}
+    }
+    "neutral":
+    {
+        "selected":{"RGBA":[r,g,b,a]},
+        "no_selected":{"RGBA":[r,g,b,a]}
+    }
+    "hostile":
+    {
+        "selected":{"RGBA":[r,g,b,a]},
+        "no_selected":{"RGBA":[r,g,b,a]}
+    }
+}

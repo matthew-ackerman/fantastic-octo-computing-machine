@@ -1,0 +1,21 @@
+{
+  "command_strip_bg": { "active": { "RGBA": [22, 26, 28, 220] } },
+  "game_strip_bg":    { "active": { "RGBA": [24, 22, 28, 220] } },
+  "new_heading": {
+    "active":   { "RGBA": [35, 60, 35, 255] },
+    "disabled": { "RGBA": [30, 30, 30, 200] }
+  },
+  "fire": {
+    "active":   { "RGBA": [60, 35, 35, 255] },
+    "disabled": { "RGBA": [30, 30, 30, 200] }
+  },
+  "accel": {
+    "active":   { "RGBA": [35, 60, 45, 255] },
+    "disabled": { "RGBA": [30, 30, 30, 200] }
+  },
+  "end_turn": { "active": { "RGBA": [35, 45, 60, 255] } },
+  "quit":     { "active": { "RGBA": [50, 35, 35, 255] } },
+  "save":     { "active": { "RGBA": [35, 35, 60, 255] } },
+  "next_ship":      { "active": { "RGBA": [45, 35, 45, 255] } },
+  "previous_ship":  { "active": { "RGBA": [45, 45, 35, 255] } }
+}

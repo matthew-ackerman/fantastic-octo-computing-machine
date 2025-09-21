@@ -1,0 +1,35 @@
+{
+  "title": "Allophoria",
+  "window": { "w": 1280, "h": 720, "fullscreen": false },
+  "fps_cap": 60,
+  "fonts": {
+    "path": "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "small": 12,
+    "medium": 18,
+    "large": 28
+  },
+  "buttons": {
+    "save": { "text":"Save $key", "active": { "name":"star_blue" } },
+    "end_turn": { "text":"End $key", "active": { "name":"blue" } },
+    "next_ship": { "text":"Next $key", "active": { "name":"blue" } },
+    "previous_ship": { "text":"Prev $key", "active": { "name":"blue" } },
+    "fire": { "text":"Fire $key", "active": { "name":"blue"} },
+    "quit": { "text":"Quit $key", "active": { "name":"star_blue"} }
+  },
+  "colors": {
+    "white":[235,235,235,255],
+    "black":[0,0,0,255],
+    "gray":[180,180,180,255],
+    "green":[120,220,120,255],
+    "yellow":[240,220,120,255],
+    "red":[230,100,100,255],
+    "star_blue":[20,70,155,55],
+    "blue":[120,170,255,155],
+    "cyan":[120,220,255,255],
+    "magenta":[220,120,220,255],
+    "orange":[255,180,120,255],
+    "ui_hud_bg":[20,24,28,220],
+    "ui_hud_border":[80,170,255,255],
+    "ui_hud_text":[235,235,235,255]
+  }
+}

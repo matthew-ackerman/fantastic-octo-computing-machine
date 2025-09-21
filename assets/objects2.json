@@ -1,0 +1,39 @@
+#DONT FORGET ABOUT LASERS
+{
+  "image_path":"/home/matt/work/virtual_impuse/graphics",
+  "ship1": {
+    "type":"ship",
+    "image": "ship1.png",
+    "ang_accel": 1.0,
+    "ang_vel_max": 2.0,
+    "radius": 252,
+    "delta_v": 10000.0
+  },
+  "bullet": {
+    "type":"projectile",
+    "image": "bullet.png",
+    "radius": 8,
+    "additional_velocity": 6000.0
+  },
+  "earth": {
+    "type":"planet",
+    "image": "earth.png",
+    "rescale": 18000,
+    "radius": 6371000,
+    "atmosphere_depth":150000
+  },
+  "debris1": { 
+    "type": "projectile",
+    "image": "debris1.png", 
+    "radius": 20 },
+  "debris2": { 
+    "type":"projectile",
+    "image": "debris2.png", 
+    "radius": 16 
+    },
+  "debris3": { 
+    "type":"projectile",
+    "image": "debris3.png", 
+    "radius": 54 
+    }
+}

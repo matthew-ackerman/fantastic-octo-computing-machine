@@ -1,6 +1,9 @@
 graphics/*
 audio/*
 not_free/*
-main_engine
-ui_main
-virtual_impuse
+assets/*
+focm_engine
+focm_ui
+AGENTS.md
+AGENTS.md
+CHANGES.md

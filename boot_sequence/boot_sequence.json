@@ -1,0 +1,131 @@
+{
+  "boot_sequence": [
+    {
+      "delay": 0.001,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ]", "color": "gray" },
+        { "text": " rt-bios0 checksum passed.", "color": "gray" }
+      ]
+    },
+    {
+      "delay": 0.113,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ]", "color": "gray" },
+        { "text": " cpu0.0 block locked at 2.7GHz.", "color": "gray" }
+      ]
+    },
+    {
+      "delay": 0.115,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ]", "color": "gray" },
+        { "text": " cpu1.0 block locked at 2.7GHz.", "color": "gray" }
+      ]
+    },
+    {
+      "delay": 0.117,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ]", "color": "gray" },
+        { "text": " cpu0.i block locked at 3.1GHz.", "color": "gray" }
+      ]
+    },
+    {
+      "delay": 0.119,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ]", "color": "gray" },
+        { "text": " cpu1.i block locked at 3.1GHz.", "color": "gray" }
+      ]
+    },
+    {
+      "delay": 0.368,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ]", "color": "white" },
+        { "text": " dram0 training complete.", "color": "white" }
+      ]
+    },
+    {
+      "delay": 0.368,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ]", "color": "white" },
+        { "text": " dram1 training complete.", "color": "white" }
+      ]
+    },
+    {
+      "delay": 0.372,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ]", "color": "white" },
+        { "text": " Exchanging advanced computing keys (ACKs)", "color": "white" }
+      ]
+    },
+    {
+      "delay": 0.384,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ] ", "color": "white" },
+        { "text": "[  OK  ] ", "color": "green", "modifiers": "bold" },
+        { "text": "Loading bootloader image (verified)", "color": "white" }
+      ]
+    },
+    {
+      "delay": 1.512,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ]", "color": "white" },
+        { "text": " Begin: Mounting root filesystem... Begin: running /scripts/local-top. Please unlock disk nul_crypt-0", "color": "white" }
+      ]
+    },
+    {
+      "delay": 2.384,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ] ", "color": "white" },
+        { "text": "[  OK  ] ", "color": "green", "modifiers": "bold" },
+        { "text": "Filesystem mounted.", "color": "white" }
+      ]
+    },
+    {
+      "delay": 3.024,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ] ", "color": "white" },
+        { "text": "[  OK  ] ", "color": "green", "modifiers": "bold" },
+        { "text": "Kernel image authenticated", "color": "white" }
+      ]
+    },
+    {
+      "delay": 4.048,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ] ", "color": "white" },
+        { "text": "[  OK  ] ", "color": "green", "modifiers": "bold" },
+        { "text": "Thread monitor enabled (5s heartbeat)", "color": "white" }
+      ]
+    },
+    {
+      "delay": 4.944,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ] ", "color": "white" },
+        { "text": "[  OK  ] ", "color": "green", "modifiers": "bold" },
+        { "text": "Interrupt vectors initialized", "color": "white" }
+      ]
+    },
+    {
+      "delay": 7.840,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ] ", "color": "white" },
+        { "text": "[  OK  ] ", "color": "green", "modifiers": "bold" },
+        { "text": "Loading ship.nul", "color": "white" }
+      ]
+    },
+    {
+      "delay": 11.864,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ] ", "color": "white" },
+        { "text": "[  OK  ] ", "color": "green", "modifiers": "bold" },
+        { "text": "Homonomic execution stabilized", "color": "white" }
+      ]
+    },
+    {
+      "delay": 15.000,
+      "segments": [
+        { "cmd": "elapsed", "format": "[ %11.6f ] ", "color": "white" },
+        { "text": "[ WARN ] ", "color": "yellow", "modifiers": "bold" },
+        { "text": "thread failed to decrypt. Unknown instructions may have been executed, continue with boot? [Y/n]", "color": "white" }
+      ]
+    }
+  ]
+}
